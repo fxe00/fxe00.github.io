@@ -1,9 +1,6 @@
 # About
-This is the blog [fxe00](https://github.com/fxe00).
+:::important
+留下看个番
+:::
 
-::github{repo="fxe00/fxe00.github.io"}
-
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1fs41177WY&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>

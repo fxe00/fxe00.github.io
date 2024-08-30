@@ -15,8 +15,8 @@ export const siteConfig: SiteConfig = {
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
-    enable: false,
-    src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    enable: true,
+    src: 'assets/images/717361.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center', // Equivalent to object-position, defaults center
     credit: {
       enable: false,         // Display the credit text of the banner image
