@@ -116,8 +116,6 @@ MITRE ATT&CK框架为网络攻击行为定义了14个核心战术(Tactics)，这
 
 - **T1574.001 - Hijack Execution Flow: DLL Search Order Hijacking**：劫持执行流的一种子技术，通过利用DLL搜索顺序的特性加载恶意DLL。
 - **T1059.001 - Command and Scripting Interpreter: PowerShell**：命令与脚本解释器技术下的子技术，专门指利用PowerShell执行恶意命令和脚本。
-- **T1005.003 - Data from Local System: Screen Capture**：收集数据技术下的子技术，指的是从本地系统捕获屏幕图像。
 - **T1003.001 - OS Credential Dumping: LSASS Memory**：凭据转储技术的一个子技术，特别关注从LSASS内存中提取凭证。
-- **T1083.002 - File and Directory Discovery: Network Shares**：文件和目录发现技术的子技术，专注于发现网络共享资源。
 
 每个子技术都附有其独特的描述、示例、缓解措施和检测方法，旨在帮助分析师深入了解攻击者行为并采取相应的防御措施。要查看所有最新的子技术及其详细信息，最佳做法是直接访问MITRE ATT&CK官方网站的[企业版技术页面](https://attack.mitre.org/techniques/enterprise/)，其提供了一个可搜索的数据库，允许用户根据战术、技术或子技术名称进行查询。
