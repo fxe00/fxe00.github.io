@@ -84,7 +84,12 @@ b'fxe00\n'
 2. PIN码具体是如何生成的
 
 **为什么是/console路径?**
-分析流程栈如下:
+
+flask的官方文档中有关debug模式的描述并未提到存在/console这个控制台路径, 那么console这个路径从何而来?
+
+![img](asset/flask-debug-doc.png)
+
+分析流程如下:
 ```python
 app.run(host="0.0.0.0", port=8080, debug=True) ->
 run_simple(t.cast(str, host), port, self, **options) ->
@@ -105,7 +110,8 @@ def __init__(
 在DebuggedApplication类初始化时会设置console_path为/console, 启用/console路由作为web端的调试控制台。
 
 **PIN码具体是如何生成的?**
-分析流程栈如下:
+
+分析流程如下:
 
 ```python
 app.run(host="0.0.0.0", port=8080, debug=True) ->
