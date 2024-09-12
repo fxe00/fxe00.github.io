@@ -3,8 +3,8 @@ title: Guides for Blog
 published: 2024-04-01
 description: "How to use & write this blog template."
 image: "./cover.jpeg"
-tags: ["Guide"]
-category: Guide
+tags: ["guide"]
+category: guide
 draft: false
 ---
 
